@@ -1,0 +1,179 @@
+
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+}
+
+
+
+.pagina {
+    width: 100%;
+    margin: 0;
+}
+
+
+
+
+.banner {
+    width: 100%;
+    height: 170px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: brightness(55%);
+}
+
+.texto-banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.texto-banner h1 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.texto-banner p {
+    font-size: 11px;
+    margin-bottom: 14px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 9px 19px;
+    background-color: #e85b50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+
+
+
+.puntos {
+    text-align: center;
+    padding: 12px 0 30px;
+}
+
+.puntos span {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #777;
+    margin: 0 4px;
+}
+
+
+
+
+.seccion {
+    width: 975px;
+    margin: 0 auto 38px;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.titulo h2 {
+    font-size: 14px;
+    color: #555;
+    text-decoration: underline;
+    margin-bottom: 7px;
+}
+
+.titulo p {
+    font-size: 8px;
+    color: #aaa;
+}
+
+
+
+
+.servicios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+
+.servicio {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icono {
+    color: white;
+    font-size: 24px;
+}
+
+
+
+
+.servicio-verde {
+    background-color: #20b89f;
+}
+
+.servicio-naranja {
+    background-color: #e9842d;
+}
+
+.servicio-azul {
+    background-color: #4397cf;
+}
+
+.servicio-verde2 {
+    background-color: #29c678;
+}
+
+
+
+.portafolio-seccion {
+    margin-top: 5px;
+}
+
+.portafolio {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+
+.portafolio a {
+    width: 100%;
+    height: 125px;
+    overflow: hidden;
+    display: block;
+}
+
+.portafolio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.25s ease;
+}
+
+.portafolio a:hover img {
+    transform: scale(1.05);
+}
+
+
